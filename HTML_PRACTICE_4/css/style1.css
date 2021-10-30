@@ -4,19 +4,20 @@
   box-sizing: border-box;
 }
 h1 {
-  font: 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 19px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
+  letter-spacing: 0.5px;
   }
 h2 {
-  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 17px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
-  font-weight: 700;
-  margin: 35px 0 20px 0;
+  font-weight: bold;
+  margin: 20px 0 20px 0;
   }
 p {
   font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-left: 10px;
+  
 }
 .c1 {
   text-align: justify;
@@ -26,8 +27,9 @@ p {
 .foot {
   
   font: 12px/1.2 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 15px;
+  margin-top: 12px;
   text-align: center;
+  color: LightGray;
   }
 
 form {
@@ -52,8 +54,9 @@ input {
   margin: 0;
 }
 legend {
-  font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
+  font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0px 0  30px 8px;
+  padding-top: 10px;
 }
 .account-info {
   padding: 0 20px 0 20px;
@@ -116,6 +119,9 @@ height: 27px;
   padding: 20px 20px 7px 20px;
 }
 
+.main {
+  padding-top: 30px;
+}
 input[type="checkbox"] {
   margin-bottom: 0px;
 }
