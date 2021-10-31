@@ -1,0 +1,68 @@
+h1 {
+ color:#094277;
+ font-weight: 500;
+ font: 24px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
+}
+
+h2{
+  color :#51749A;
+  font: 21px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.strong {
+  font-weight: bold;
+}
+.content{
+  padding: 10px 15px 10px 15px;
+  text-align: justify;
+  border-top: 3px solid #E6EBF1;
+
+}
+img {
+  width:38px ;
+  height:38px ;
+  margin-right: 10px;
+}
+
+.table_2 {
+    display: inline-block;
+    clear: left;
+    width: 600px;
+    text-align: right; /*Change to right here if you want it close to the inputs*/
+    
+}
+.table_2 input {
+  margin: 7px 0 7px 0;
+}
+.table_2 td {
+  color: #616861 ;
+}
+
+.addtext {
+  color: #c2c4db !important;
+  text-align: left;
+}
+
+select {
+  width : 205px;
+}
+caption {
+  
+  caption-side: bottom;
+  font: 12px "Roboto Condensed", Helvetica, Arial, sans-serif;
+  margin-left: 54px;
+  color: #69645E;
+  font-weight: bold;
+}
+
+.table_3 select {
+  margin: 0px 40px 0px 0;
+}
+
+.table_3 {
+    display: inline-block;
+    clear: left;
+    width: 800px;
+    text-align: right; /*Change to right here if you want it close to the inputs*/
+    
+}
