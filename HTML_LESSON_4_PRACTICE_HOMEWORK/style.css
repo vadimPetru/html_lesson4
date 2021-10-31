@@ -1,21 +1,39 @@
+.text {
+  font: 18.5px "Roboto Condensed", Helvetica, Arial, sans-serif;
+}
+
+
 h1 {
+ margin-left: 5px;
  color:#094277;
- font-weight: 500;
  font: 24px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 
 h2{
+  margin-left: 5px;
   color :#51749A;
   font: 21px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
   font-weight: bold;
+  
 }
+
+h3 {
+  margin-left: 5px;
+  margin-bottom: -2px;
+  color:#51749A;
+  font: 18px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+
 .strong {
   font-weight: bold;
 }
 .content{
-  padding: 10px 15px 10px 15px;
+  padding: 0px 15px 0px 15px;
   text-align: justify;
   border-top: 3px solid #E6EBF1;
+  margin-bottom: 10px;
 
 }
 img {
@@ -37,6 +55,9 @@ img {
 .table_2 td {
   color: #616861 ;
 }
+.table_2 tr {
+  padding-bottom: 0px;
+}
 
 .addtext {
   color: #c2c4db !important;
@@ -46,7 +67,7 @@ img {
 select {
   width : 205px;
 }
-caption {
+.caption {
   
   caption-side: bottom;
   font: 12px "Roboto Condensed", Helvetica, Arial, sans-serif;
@@ -66,3 +87,83 @@ caption {
     text-align: right; /*Change to right here if you want it close to the inputs*/
     
 }
+
+.table_4 {
+  display: inline-block;
+    clear: left;
+    width: 800px;
+    text-align: left; /*Change to right here if you want it close to the inputs*/
+}
+.table_4 select {
+  margin: 0px;
+}
+button
+{
+     margin-top: 35px;
+    height: 28px;
+    width: 260px;
+    background-color: #EFEFEF;
+    margin-left: 38px;
+    font-size: 16px;
+}
+
+.education
+{
+  margin-top : 40px;
+  margin-bottom: 14px;
+}
+
+.content_1{
+  padding: 10px 15px 0px 15px;
+  text-align: justify;
+  border-top: 3px solid #E6EBF1;
+  margin-bottom: 9px;
+
+}
+
+.padding_10  {
+  padding-bottom: 20px;
+}
+
+.name_school {
+  margin: 45px 0 8px 5px;
+  
+}
+.content_2{
+  padding: 10px 15px 0px 15px;
+  text-align: justify;
+  border-top: 3px solid #E6EBF1;
+  margin-top: 9px;
+}
+.content_3{
+ padding: 10px 15px 0px 15px;
+  text-align: justify;
+  border-top: 3px solid #E6EBF1;
+  margin-top: 9px;
+}
+.name_of_school {
+  margin-left: 25px ;
+}
+.name_of_univesity{
+  margin-left: 55px;
+}
+.agreement{
+  margin-left: 38px;
+  color: #c2c4db 
+}
+.snatch {
+  margin-left: 270px;
+}
+.agreement a {
+  color: #265275;
+}
+
+label {
+  color: #626A75;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.padding_10,.padding_20
+{
+  margin-left: 25px;
+}
+
