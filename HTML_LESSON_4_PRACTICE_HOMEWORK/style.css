@@ -1,77 +1,75 @@
 .text {
-  font: 16px "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font: 14px "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 
-
 h1 {
- margin-left: 5px;
+ margin: 11px 0 15px 5px;
  color:#094277;
- font: 24px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
+ font: 18px/1.1 "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 
 h2{
   margin-left: 5px;
+  margin-bottom: 18px;
+  margin-top:16px;
   color :#51749A;
-  font: 21px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font: 18.5px/1 "Roboto Condensed", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  
 }
 
 h3 {
   margin-left: 5px;
   margin-bottom: -2px;
   color:#51749A;
-  font: 18px/1.8 "Roboto Condensed", Helvetica, Arial, sans-serif;
+  font: 15px/1.45 "Roboto Condensed", Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
-
-
 .strong {
   font-weight: bold;
 }
 .content{
-  padding: 0px 15px 0px 15px;
+  padding: 2px 15px 0px 15px;
   text-align: justify;
   border-top: 3px solid #E6EBF1;
-  margin-bottom: 10px;
-
+  margin-bottom: 9px;
 }
 img {
-  width:38px ;
-  height:38px ;
+  width:36px ;
+  height:36px ;
   margin-right: 10px;
 }
-
 .table_2 {
     display: inline-block;
     clear: left;
+    margin-top: -4px;
     width: 600px;
-    text-align: right; /*Change to right here if you want it close to the inputs*/
-    
+    height: 151px;
+    text-align: right;
+    font: 13px "Roboto Condensed", Helvetica, Arial, sans-serif; 
+}
+.addtext {
+  color: #c2c4db !important;
+  font: 11px "Roboto Condensed", Helvetica, Arial, sans-serif; 
+  text-align: left;
 }
 .table_2 input {
   margin: 7px 0 7px 0;
 }
 .table_2 td {
-  color: #616861 ;
+  color: #616861;
+  padding-top: 0px;
 }
 .table_2 tr {
-  padding-bottom: 0px;
-}
-
-.addtext {
-  color: #c2c4db !important;
-  text-align: left;
+  margin-top: 0px;
 }
 
 select {
   width : 205px;
 }
 .caption {
-  
   caption-side: bottom;
-  font: 12px "Roboto Condensed", Helvetica, Arial, sans-serif;
-  margin-left: 54px;
+  font: 12px/1 "Roboto Condensed", Helvetica, Arial, sans-serif;
+  text-align: left;
   color: #69645E;
   font-weight: bold;
 }
@@ -80,12 +78,28 @@ select {
   margin: 0px 40px 0px 0;
 }
 
+.content_1{
+  padding: 3px 15px 0px 0px;
+  text-align: justify;
+  border-top: 2px solid #E6EBF1;
+  margin-bottom: 10px;
+}
+
 .table_3 {
     display: inline-block;
     clear: left;
     width: 800px;
-    text-align: right; /*Change to right here if you want it close to the inputs*/
-    
+    height: 65px;
+    text-align: right; 
+}
+
+.padding_10  {
+  padding-bottom: 10px;
+  padding-top:0px;
+}
+.padding_10, .padding_20
+{
+  margin-left: 25px;
 }
 
 .table_4 {
@@ -99,12 +113,13 @@ select {
 }
 button
 {
-     margin-top: 35px;
-    height: 28px;
-    width: 260px;
+     margin-top: 24px;
+    height: 23px;
+    width: 210px;
     background-color: #EFEFEF;
     margin-left: 38px;
-    font-size: 16px;
+    font-size: 13.5px;
+    border: 1px solid #8f8f7a;
 }
 
 .education
@@ -113,33 +128,24 @@ button
   margin-bottom: 14px;
 }
 
-.content_1{
-  padding: 10px 15px 0px 15px;
-  text-align: justify;
-  border-top: 3px solid #E6EBF1;
-  margin-bottom: 9px;
-
-}
-
-.padding_10  {
-  padding-bottom: 20px;
-}
 
 .name_school {
-  margin: 45px 0 8px 5px;
+  margin: 40px 0 8px 5px;
   
 }
 .content_2{
-  padding: 10px 15px 0px 15px;
+  padding: 0px 15px 0px 15px;
   text-align: justify;
-  border-top: 3px solid #E6EBF1;
-  margin-top: 9px;
+  border-top: 2px solid #E6EBF1;
+  margin-top: 0px;
+  margin-bottom: 9px;
 }
 .content_3{
- padding: 10px 15px 0px 15px;
+  padding: 0px 15px 0px 15px;
+  margin-bottom:14px;
   text-align: justify;
-  border-top: 3px solid #E6EBF1;
-  margin-top: 9px;
+  border-top: 2px solid #E6EBF1;
+  margin-top: 6px;
 }
 .name_of_school {
   margin-left: 25px ;
@@ -149,21 +155,20 @@ button
 }
 .agreement{
   margin-left: 38px;
-  color: #c2c4db 
+  color: #c2c4db;
+  font: 11px "Roboto Condensed", Helvetica, Arial, sans-serif;
+
 }
 .snatch {
   margin-left: 270px;
 }
 .agreement a {
   color: #265275;
+  font: 11px "Roboto Condensed", Helvetica, Arial, sans-serif;
+  text-decoration: none;
 }
 
 label {
   color: #626A75;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 13px "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
-.padding_10,.padding_20
-{
-  margin-left: 25px;
-}
-
