@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,55 +8,55 @@
   <title>Использование веб-форм на сайте</title>
   <link rel="stylesheet" href="css/style1.css">
 </head>
+
 <body>
   <header>
-    <h1>ФОРМА РЕГИСТРАЦИИ НА САЙТЕ</h1>
-    <!--<nav>
-      <a href="#" title="На главную">На главную</a>
-    </nav>-->
+    <h1>Форма регистрации на сайте</h1>
   </header>
   <main>
     <article class="c1">
       <h2>Добро пожаловать на наш сайт!</h2>
-       <form action="/signup" method="POST">
+      <form action="/signup" method="POST">
         <fieldset class="account-info">
           <legend>Для регистрации введите свои данные:</legend>
           <label>Имя</label>
-          <input type="text" name="first_name">
+          <input type="text" name="first_name" placeholder="Дмитрий">
           <label>Фамилия</label>
-          <input type="text" name="last_name">
+          <input type="text" name="last_name" placeholder="Домашенко">
           <label>Email</label>
-          <input type="text" required="required" class="email notnull">
+          <input type="text" required="required" class="email notnull" placeholder="fahrenheit843f@gmail.com">
           <label>Телефон</label>
           <input type="text" name="phone" required="required" class="notnull"
             placeholder="+375 (код оператора) 111-11-11">
           <label>Страна</label>
-            <select name="country">
-              <option>Беларусь</option>
-              <option>Россия</option>
-              <option>Украина</option>
-              <option>Польша</option>
-              <option>Литва</option>
-              <option>Латвия</option>
-              <option>Эстония</option>
-              <option>США</option>
-            </select>
+          <select name="country">
+            <option>Беларусь</option>
+            <option>Россия</option>
+            <option>Украина</option>
+            <option>Польша</option>
+            <option>Литва</option>
+            <option>Латвия</option>
+            <option>Эстония</option>
+            <option>США</option>
+          </select>
           <label>Пароль</label>
           <input type="password" name="password">
           <label>Подтвердите пароль</label>
           <input type="password" name="password_confirm">
-          
+
         </fieldset>
         <fieldset class="account-action">
-          <div class = "ed"><label><input  type="checkbox"   checked
-            name="ww_submit_confirm">&nbsp;Отметьте для подтверждения согласия <a
-              href="/подключение/правила-использования-услуги" target="_blank" rel="noopener">с правилами использования
-              услуги</a></label><br>
-              <label><input type="checkbox"  checked name="ww_submit_confirm">&nbsp;Отметьте для согласия на обработку персональных данных в
-                соответствии с <a href="/соглашение-об-обработке-персональных-данных" target="_blank" rel="noopener">Соглашением об
-                  обработке персональных данных</a></label></div>
+          <p><label><input type="checkbox" checked name="ww_submit_confirm">&nbsp;Отметьте для
+              подтверждения согласия <a href="/подключение/правила-использования-услуги" target="_blank"
+                rel="noopener">с правилами
+                использования
+                услуги</a></label></p>
+          <p class="snatch"><label><input type="checkbox" checked name="ww_submit_confirm">&nbsp;Отметьте для согласия
+              на обработку персональных данных в соответствии с <a href="/соглашение-об-обработке-персональных-данных"
+                target="_blank" rel="noopener">Соглашением об
+                обработке персональных данных</a></label></p>
           <input class="btn" type="submit" name="submit" value="Зарегистрироваться">
-          </fieldset>
+        </fieldset>
       </form>
     </article>
     <!--<aside>
@@ -63,7 +64,8 @@
     </aside>-->
   </main>
   <footer class="foot">
-  &#169; 2021, Официальный сайт Петруленко Вадима Игоревича
+    &#169; 2021, Официальный сайт Петруленко Вадима Игоревича
   </footer>
 </body>
+
 </html>
