@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -20,16 +20,15 @@
         <fieldset class="account-info">
           <legend>Для регистрации введите свои данные:</legend>
           <label>Имя</label>
-          <input type="text" name="first_name" placeholder="Дмитрий">
+          <input type="text" name="first_name" placeholder="Петр">
           <label>Фамилия</label>
-          <input type="text" name="last_name" placeholder="Домашенко">
+          <input type="text" name="last_name" placeholder="Петров">
           <label>Email</label>
-          <input type="text" required="required" class="email notnull" placeholder="fahrenheit843f@gmail.com">
+          <input type="text" required="required" class="email notnull" placeholder="petr@ya.ru">
           <label>Телефон</label>
-          <input type="text" name="phone" required="required" class="notnull"
-            placeholder="+375 (код оператора) 111-11-11">
+          <input type="text" name="phone" required="required" class="notnull" placeholder="+375 (29) 888-1-888">
           <label>Страна</label>
-          <select name="country">
+          <select class="town" name="country">
             <option>Беларусь</option>
             <option>Россия</option>
             <option>Украина</option>
@@ -40,9 +39,9 @@
             <option>США</option>
           </select>
           <label>Пароль</label>
-          <input type="password" name="password">
+          <input type="password" name="password" placeholder="*********">
           <label>Подтвердите пароль</label>
-          <input type="password" name="password_confirm">
+          <input type="password" name="password_confirm" placeholder="*********">
 
         </fieldset>
         <fieldset class="account-action">
