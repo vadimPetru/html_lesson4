@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Формы на веб-странице</title>
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+
+<body>
+  <header>
+    <h1>Регистрация</h1>
+    <!--<nav>
+      <a href="#" title="На главную">На главную</a>
+    </nav>-->
+  </header>
+  <main>
+    <article class="c1">
+      <h2><img src="VK-0.jpg" alt="ВК лого" width="34" height="34" class="logoimg"><div id ="first_line"><b>ВКонтакте.ру</b> - сетевой
+        проект, который поможет Вам узнать больше о людях, которые Вас</div> <div id ="second_line">окружают, а также найти потерянных друзей и
+        поддерживать с ними связь. Вы сможете</div>
+        <div id ="third_line">делиться информацией, ограничивая круг лиц, которым она будет
+        доступна. </div></h2>
+      <form action="/signup" method="POST">
+        <h3>Имя</h3>
+        <fieldset>
+          <label class="f_name">Имя:</label>
+          <input type="text" required="required" name="first_name">
+          <span>Допускаются только настоящие имя и фамилия</span><br>
+          <label class="s_name">Фамилия:</label>
+          <input id ="block_surname"type="text" required="required" name="last_name">
+          <span>Остальные регистрации будут удаляться</span><br>
+          <label class="email">E-Mail :</label>
+          <input id="eml" type="text" required="required" id="email_notnull"><br>
+          <label class="psw">Пароль :</label>
+          <input  id = "pasw"type="password" name="password"><br>
+
+        </fieldset>
+        <h3 id="education"><br><br>Образование</h3>
+        <fieldset class="account-action">
+          <label class="label_country">Страна:</label>
+          <select class="country" name="country">
+            <option>Россия</option>
+            <option>Беларусь</option>
+            <option>Украина</option>
+            <option>Польша</option>
+            <option>Литва</option>
+            <option>Латвия</option>
+            <option>Эстония</option>
+            <option>США</option>
+          </select>
+          <br>
+          <label class="label_city">Город:</label>
+          <select class="city" name="city">
+            <option>Минск</option>
+            <option>Москва</option>
+            <option>Киев</option>
+            <option>Варшава</option>
+            <option>Вильнюс</option>
+            <option>Рига</option>
+            <option>Таллин</option>
+            <option>Вашингтон</option>
+          </select>
+          <br><div class="div_city">Город, где Вы учились в школе или вузе:</div>
+        </fieldset>
+        <h4><br><br>Школа</h4>
+        <fieldset class="account-action">
+          <label class="label_school">Школа:</label>
+          <select class="school" name="country">
+            <option disabled selected value> - Выберите школу - </option>
+            <option>Гимназия №1</option>
+            <option>Гимназия №2</option>
+            <option>СШ №1</option>
+            <option>СШ №2</option>
+            <option>СШ №3</option>
+            <option>СШ №4</option>
+            <option>СШ №5</option>
+            <option>Церковно-приходская</option>
+          </select>
+          <h4>Университет</h4>
+          <label class="label_university">Вуз:</label>
+          <select class="university" name="city">
+            <option disabled selected value> - Выберите ВУЗ - </option>
+            <option>БГУ</option>
+            <option>МГУ</option>
+            <option>КНУ им.Тараса Шевченко</option>
+            <option>Варшавский университет</option>
+            <option>Vilnius Technical University</option>
+            <option>Латвийский университет</option>
+            <option>Тартуский университет</option>
+            <option>MIT</option>
+          </select><br>
+          <input class="buttom_confirm" type="submit" name="submit" value="Зарегистрироваться">
+          <br><div class="div_warning">Фактом регистрации Вы соглашаетесь с <a class="alink"
+              href="https://vk.com/terms">Пользовательским соглашением</a></div>
+        </fieldset>
+      </form>
+    </article>
+    <!--<aside>
+      Тут могла быть ваша реклама
+    </aside>-->
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,310 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body{
+  margin-top: 4px;
+}
+.c1{
+  margin-left: 2px;
+}
+
+
+h1 {
+  font: 18px/1.8 arial;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  color: rgb(87,115,152);
+  padding-bottom: 12px;
+  border: rgb(226, 222, 222);
+  border-bottom-style: solid;
+  border-width: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2px;
+ 
+  }
+h2 {
+  font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 13px;
+  margin-bottom: 15px;
+  text-align: left;
+  line-height: 19px;
+  letter-spacing: 0.6px;
+  }
+
+  h3 {
+  font: bolder 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(87, 115, 152);;
+  margin-top: 22px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  line-height: 19px;
+  letter-spacing: 0.7px;
+  word-spacing: 0.1px;
+  border: rgb(226, 222, 222);
+  border-bottom-style: solid;
+  border-width: 3px;
+  }
+
+  h4 {
+  font: bolder 12px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(87, 115, 152);
+  margin-top: 2px;
+  margin-bottom: 9px;
+  margin-left: -1px;
+  padding-bottom: 12px;
+  text-align: left;
+  line-height: 19px;
+  letter-spacing: 0.7px;
+  word-spacing: 0.1px;
+  border: rgb(226, 222, 222);
+  border-bottom-style: solid;
+  border-width: 3px;
+  }
+
+.logoimg{
+  float:left;
+    margin-left: 5px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+select {
+  
+  background: #fff;
+  border: 1px solid black;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: black;
+  height: 17px;
+  font-size: 13px;
+  width: 163px;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.div_city{
+  color: rgb(100, 99, 99);
+  margin-left: 76px;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  margin-top: -1px;
+  
+}
+
+.country{
+  margin-top:-1px;
+  margin-left: 75px;
+  margin-bottom: 0;
+  border-radius: 3px;
+  border-color: rgb(119, 119, 119);
+}
+
+.city{
+  margin-top: 17px;
+  margin-left: 76px;
+  margin-bottom: -1px;
+  border-radius: 3px;
+  border-color: rgb(119, 119, 119);
+}
+.school{
+  margin-top: 3px;
+  margin-left: 73px;
+  margin-bottom: 11px;
+  width: 166px;
+  height: 18px;
+  border-radius: 3px;
+  border-color: rgb(119, 119, 119);
+}
+.university{
+  margin-top: 2px;
+  margin-left: 72px;
+  margin-bottom: 2px;
+  width: 167px;
+  height: 18px;
+  letter-spacing: 0.3px;
+  border-radius: 3px;
+  border-color: rgb(119, 119, 119);
+}
+input {
+  width: 212px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: rgb(119, 119, 119);
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 68px;
+  height: 21px;
+  margin-top: 1px;
+  margin-bottom: 16px;
+  width: 158px;
+  
+}
+
+span{
+ color: rgb(157, 152, 152);
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 10px;
+ letter-spacing: 0.5px;
+ word-spacing: 0.9px;
+  margin-top: 1px;
+}
+
+label{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding-left: 2px;
+  position: absolute;
+  text-align: left;
+  margin-top: 5px;
+  letter-spacing: 0.6px;
+}
+
+.f_name{
+  font-size: 12px;
+  color: rgb(87, 86, 86);
+  padding-left: 32px;
+  letter-spacing: 1.2px;
+}
+.s_name{
+  color: rgb(87, 86, 86);
+  padding-left: 0px;
+  font-size: 13px ;
+  margin-top: 2px;
+ 
+}
+.email{
+  color: rgb(87, 86, 86);
+  padding-left: 18px;
+  padding-top: 2px;
+  font-size: 12.7px ;
+  letter-spacing: 0px;
+}
+.psw{
+  color: rgb(87, 86, 86);
+  padding-left: 8px;
+  margin-top: 2px;
+  font-size: 13px ;
+  letter-spacing: 0.2px;
+}
+.label_country{
+  color: rgb(87, 86, 86);
+  margin-top: 0px;
+  padding-top: 1px;
+  padding-left: 17px;
+  font-size: 13px ;
+  letter-spacing: 0.5px;
+}
+.label_city{
+  color: rgb(87, 86, 86);
+  margin-top: 19px;
+  padding-left: 27px;
+  font-size: 13px ;
+  letter-spacing: 0.9px;
+}
+.label_school{
+  color: rgb(87, 86, 86);
+  margin-top: 4px;
+  padding-top: 0;
+  padding-left: 17px;
+  font-size: 14px ;
+  letter-spacing: 0.5px;
+}
+.label_university{
+  color: rgb(87, 86, 86);
+  margin-top: 0px;
+  padding-top: 4px;
+  padding-left: 40px;
+  font-size: 14px ;
+  letter-spacing: 0.5px;
+}
+.buttom_confirm{
+  text-align: left;
+  font-size: 13px;
+  margin-top: 28px;
+  margin-bottom: 0;
+  margin-left: 30px;
+  padding-left: 37px;
+  width: 210px;
+  letter-spacing: 0.2px;
+}
+.div_warning{
+  color: rgb(130, 127, 127);
+  margin-left: 30px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+  font-size: 11px;
+  margin-top: 0px;
+}
+.alink{
+  text-decoration: none;
+  color: rgb(41, 85, 146);
+}
+
+
+#education{
+  font: 17px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: -5px;
+  margin-bottom: 16px;
+  text-align: left;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  word-spacing: 0.1px;
+}
+#first_line{
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  margin-top: 2px;
+
+}
+
+#second_line{
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  margin-top: -3px;
+
+}
+
+#third_line{
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  margin-top: -4px;
+}
+
+#block_surname{
+    margin-left: 68px;
+    height: 20px;
+    margin-top: -1px;
+    margin-bottom: 13px;
+    width: 159px;
+}
+
+#eml{
+      margin-left: 68px;
+    height: 21px;
+    margin-top: 3px;
+    margin-bottom: 17px;
+    width: 158px;
+}
+#pasw{
+      margin-left: 67px;
+    height: 21px;
+    margin-top: 0px;
+    margin-bottom: 17px;
+    width: 158px;
+}
