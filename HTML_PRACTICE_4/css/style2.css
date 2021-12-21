@@ -84,6 +84,7 @@ select {
 }
 
 .div_city{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #636466;
   margin-left: 77px;
   font-weight: 900;
@@ -134,7 +135,7 @@ input {
   border-radius: 3px;
   border-width: 1px;
   border-color: rgb(119, 119, 119);
-  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.4  Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 68px;
   height: 21px;
   margin-top: 1px;
@@ -144,11 +145,8 @@ input {
 
 span{
  color: #c6c7cc;
- font-family: Arial, Helvetica, sans-serif;
- font-size: 10px;
- letter-spacing: 0.5px;
- word-spacing: 0.9px;
-  margin-top: 1px;
+ font: 10px Verdana, Geneva, Tahoma, sans-serif;
+ margin-top: 1px;
 }
 
 label{
