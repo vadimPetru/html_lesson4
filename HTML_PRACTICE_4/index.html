@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -12,17 +13,16 @@
 <body>
   <header>
     <h1>Регистрация</h1>
-    <!--<nav>
-      <a href="#" title="На главную">На главную</a>
-    </nav>-->
   </header>
   <main>
     <article class="c1">
-      <div id = "rovno"><img src="VK-0.jpg" alt="ВК лого" width="34" height="34" class="logoimg"><div id ="first_line"><b>ВКонтакте.ру</b> - сетевой
-        проект, который поможет Вам узнать больше о людях, которые Вас</div> <div id ="second_line">окружают, а также найти потерянных друзей и
-        поддерживать с ними связь. Вы сможете</div>
-        <div id ="third_line">делиться информацией, ограничивая круг лиц, которым она будет
-        доступна. </div></div>
+      <div id="text"><img src="VK-0.jpg" alt="ВК лого" width="34" height="34" class="logoimg">
+        <div id="first_line"><b>ВКонтакте.ру</b> - сетевой
+          проект, который поможет Вам узнать больше о людях, которые Вас</div>
+        <div id="second_line">окружают, а также найти потерянных друзей и
+          поддерживать с ними связь. Вы сможете</div>
+        <div id="third_line">делиться информацией, ограничивая круг лиц, которым она будет доступна. </div>
+      </div>
       <form action="/signup" method="POST">
         <h3>Имя</h3>
         <fieldset>
@@ -30,12 +30,12 @@
           <input type="text" required="required" name="first_name">
           <span>Допускаются только настоящие имя и фамилия</span><br>
           <label class="s_name">Фамилия:</label>
-          <input id ="block_surname" type="text" required="required" name="last_name">
+          <input id="block_surname" type="text" required="required" name="last_name">
           <span>Остальные регистрации будут удаляться</span><br>
           <label class="email">E-Mail :</label>
-          <input id="eml" type="text" required="required" ><br>
+          <input id="eml" type="text" required="required"><br>
           <label class="psw">Пароль :</label>
-          <input  id = "pasw" type="password" name="password"><br>
+          <input id="pasw" type="password" name="password"><br>
 
         </fieldset>
         <h3 id="education"><br><br>Образование</h3>
@@ -63,7 +63,8 @@
             <option>Таллин</option>
             <option>Вашингтон</option>
           </select>
-          <br><div class="div_city">Город, где Вы учились в школе или вузе:</div>
+          <br>
+          <div class="div_city"><b>Город, где Вы учились в школе или вузе:</b></div>
         </fieldset>
         <h4><br><br>Школа</h4>
         <fieldset class="account-action">
@@ -93,14 +94,14 @@
             <option>MIT</option>
           </select><br>
           <input class="buttom_confirm" type="submit" name="submit" value="Зарегистрироваться">
-          <br><div class="div_warning">Фактом регистрации Вы соглашаетесь с <a class="alink"
+          <br>
+          <div class="div_warning">Фактом регистрации Вы соглашаетесь с <a class="alink"
               href="https://vk.com/terms">Пользовательским соглашением</a></div>
         </fieldset>
+
+       
       </form>
     </article>
-    <!--<aside>
-      Тут могла быть ваша реклама
-    </aside>-->
   </main>
 </body>
 
